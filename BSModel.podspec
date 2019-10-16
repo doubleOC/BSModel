@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/3923240@qq.com/BSModel'
+  s.homepage         = 'https://github.com/doubleOC/BSModel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '3923240@qq.com' => 'jerrysus@yandex.com' }
-  s.source           = { :git => 'https://github.com/3923240@qq.com/BSModel.git', :tag => s.version.to_s }
+  s.author           = { 'doubleOC' => '2544546863@qq.com' }
+  s.source           = { :git => 'https://github.com/doubleOC/BSModel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

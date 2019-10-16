@@ -7,7 +7,8 @@
 //
 
 #import "BSViewController.h"
-
+#import "BSLog.h"
+#import "BSManager.h"
 @interface BSViewController ()
 
 @end
@@ -17,6 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [BSManager manager];
+    [BSLog bs_log];
+    NSLog(@"**********");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
